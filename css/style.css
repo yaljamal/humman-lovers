@@ -1,5 +1,5 @@
 body {
-background-color:dimgrey;
+background-color:#80746F;
 }
 ul li{
     display: inline-block;
@@ -7,10 +7,9 @@ ul li{
 
 }
 a{
-    background-color: indianred;
     font-size: 30px;
     text-decoration: none;
-    color: gold;
+    color:rgb(50, 168, 82);
 }
 header h1{
 color: crimson;
