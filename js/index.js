@@ -1,11 +1,22 @@
-var name = prompt("Whats Ur Name ?");
+var name =prompt("Whats Ur Name ?");
 var hobies=prompt("Whats Ur Hobies ?");
-var phone_number = prompt("Whats Ur Phone Number ?");
+var int_prov =prompt("Whats Ur  phone provider  ?");
+var git ;
 
-if (phone_number==123)
+if (int_prov == "umniah")
 {
-    document.write(`<h1>`+ name + +   + hobies + + `<h1>`);
+    git="ur phone provider is 078 ";
 }
+else if (int_prov == "zain" )
+    {git="ur phone provider is 079 ";
+} 
+else if (int_prov == "orange")
+  { git="ur phone provider is 077 ";
+}
+else {
+git="somthing wrong";}
+document.write(`<h2>`+ " Ur name is " + name + " Ur hobies is  "+git+ `<h2>`);
+
 
 
 
