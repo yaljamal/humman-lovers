@@ -1,6 +1,6 @@
 var name =prompt("Whats Ur Name ?");
 var hobies=prompt("Whats Ur Hobies ?");
-var int_prov =prompt("Whats Ur  phone provider  ?");
+var int_prov =prompt("Whats Ur  phone provider  ?   zain , orange , umniah");
 var git ;
 function gitprov(git)
 {
